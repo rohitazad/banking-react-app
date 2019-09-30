@@ -23,6 +23,15 @@ class HomeContainer extends React.Component {
             Font awqasome
           </a>
         </h2>
+        <h2>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="http://taxmann.com/taxcalc/taxcalc.aspx"
+          >
+            income Tax Calculators
+          </a>
+        </h2>
         <Alert dismissible variant="danger">
           <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
           <p>Change this and that and try again.</p>

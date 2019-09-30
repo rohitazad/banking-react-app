@@ -1,20 +1,11 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import BasicClcIndexCom from "../Components/Calculator/BasicClc/index";
 
 class BasicClcContainer extends React.Component {
   render() {
     return (
       <>
-        <h1>Basic cls Continer</h1>
-        <p>My basic cls ocnt</p>
-        <Container>
-          <Row>
-            <Col>asdfasdfasdf</Col>
-            <Col>asdfasdfasdf</Col>
-          </Row>
-        </Container>
+        <BasicClcIndexCom />
       </>
     );
   }
