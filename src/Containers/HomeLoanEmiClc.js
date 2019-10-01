@@ -1,11 +1,11 @@
 import React from "react";
+import HomeLoanIndex from "../Components/Calculator/HomeLoanClc/index";
 
 class HomeLoanEmiClcContainer extends React.Component {
   render() {
     return (
       <>
-        <h1>HomeLoanEmiClcContainer Continer</h1>
-        <p>My HomeLoanEmiClcContainer cls ocnt</p>
+        <HomeLoanIndex />
       </>
     );
   }
