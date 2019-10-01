@@ -18,9 +18,9 @@ function ResultCom(props) {
           <Alert.Heading>Total Amount Get</Alert.Heading>
           <Badge pill variant="primary">
             ₹ {Commafy(props.finalAmount)}
-          </Badge>{" "}
-          ===
-          {InWord(props.finalAmount)} ===
+          </Badge>
+          <hr />
+          <Badge variant="secondary">{InWord(props.finalAmount)}</Badge>
         </Alert>{" "}
       </>
     ) : null;
