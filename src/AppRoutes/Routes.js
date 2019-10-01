@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import HeaderCom from "../ShareCommon/Header/HeaderCom";
-//import FooterIndex from "../ShareCommon/Footer/FooterIndex";
+import FooterIndex from "../ShareCommon/Footer/FooterIndex";
 import HomeContainer from "../Containers/HomeContainer";
 import AboutContainer from "../Containers/AboutContainer";
 import ContactContainer from "../Containers/ContactContainer";
@@ -29,7 +29,7 @@ class RoutesComponents extends Component {
             />
             <Route path="/home-loan-emi" component={HomeLoanEmiClcContainer} />
           </Switch>
-          {/* <FooterIndex /> */}
+          <FooterIndex />
         </Router>
       </>
     );
