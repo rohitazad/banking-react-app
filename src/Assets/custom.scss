@@ -258,3 +258,25 @@ code {
     padding: 15px;
   }
 }
+.loan-sec {
+  margin-top: 20px;
+  > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    margin: 2%;
+    min-height: 100px;
+    .h4 {
+      font-weight: normal;
+      font-size: 14px;
+    }
+    .badge {
+      padding: 5px;
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+}
+.mT20 {
+  margin-top: 20px;
+}

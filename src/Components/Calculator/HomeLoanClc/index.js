@@ -17,10 +17,10 @@ const HomeLoanIndex = props => {
   ] = useState();
   const [interestPercentage, setInterestPercentage] = useState();
 
-  const [totalEmiPrice, setTotalEmiPrice] = useState();
-  const [emiPay, setEmiPay] = useState();
-  const [principlePay, setPrinciplePay] = useState();
-  const [startDate, setStartDate] = useState();
+  //const [totalEmiPrice, setTotalEmiPrice] = useState();
+  //const [emiPay, setEmiPay] = useState();
+  //const [principlePay, setPrinciplePay] = useState();
+  //const [startDate, setStartDate] = useState();
 
   const calulateHomeLoanEMI = loanData => {
     console.log(loanData);
@@ -57,6 +57,7 @@ const HomeLoanIndex = props => {
     let rohitazad = [];
 
     let emiDataObjArray = [];
+    let loanEmiAmount = loanData.deposit_amount;
     for (let j = 1; j <= numberOfMonths; j++) {
       int_dd = bb * (rateOfInterest / 100 / 12);
 
@@ -71,17 +72,23 @@ const HomeLoanIndex = props => {
         EndingBalance: end_dd
       });
 
+      let beginingBalance = loanEmiAmount;
+      loanEmiAmount = beginingBalance - pre_dd;
+      let endiningBalance = loanEmiAmount;
       emiDataObjArray.push({
-        emiPay: emi + int_dd,
+        emiPay: emi,
         principalePayData: pre_dd,
-        startDateData: j
+        startDateData: j,
+        InterestPay: emi - pre_dd,
+        beginingBalance,
+        endiningBalance
       });
 
       console.log(emi, "____", int_dd, "____", pre_dd, j);
 
       bb = bb - pre_dd;
     }
-    setTotalEmiPrice(rohitazad);
+    //setTotalEmiPrice(rohitazad);
     setEmiDataObj(emiDataObjArray);
 
     // this.chartdrowMyRohitazad(
@@ -91,6 +98,25 @@ const HomeLoanIndex = props => {
     //   "Total Payment  (Principal + Interest)"
     // );
   };
+  // for rendering Data for html
+  let home_loan_result_com =
+    loanEMI && loanEMI !== "" ? (
+      <>
+        <HomeLoanResultCom
+          loanEMI={(+loanEMI).toFixed(2)}
+          totalInterestPayable={(+totalInterestPayable).toFixed(2)}
+          totalPaymentPrincipalInterest={(+totalPaymentPrincipalInterest).toFixed(
+            2
+          )}
+          interestPercentage={interestPercentage}
+        />
+      </>
+    ) : null;
+  let table_formate_data_com = emiDataObj ? (
+    <>
+      <TableFormateDataCom emiDataObj={emiDataObj} />{" "}
+    </>
+  ) : null;
   return (
     <>
       <Container>
@@ -102,26 +128,15 @@ const HomeLoanIndex = props => {
             </Card.Title>
 
             <Row>
-              <Col>
-                <HomeLoanResultCom
-                  loanEMI={(+loanEMI).toFixed(2)}
-                  totalInterestPayable={(+totalInterestPayable).toFixed(2)}
-                  totalPaymentPrincipalInterest={(+totalPaymentPrincipalInterest).toFixed(
-                    2
-                  )}
-                  interestPercentage={interestPercentage}
-                />
-              </Col>
+              <Col>{home_loan_result_com}</Col>
               <Col>
                 <div className="">
                   <HomeLoanFormCom userFormValue={calulateHomeLoanEMI} />
                 </div>
               </Col>
             </Row>
-            <Row>
-              <Col>
-                <TableFormateDataCom emiDataObj={emiDataObj} />
-              </Col>
+            <Row className="mT20">
+              <Col>{table_formate_data_com}</Col>
             </Row>
           </Card.Body>
         </Card>

@@ -7,7 +7,7 @@ import { Commafy } from "../../../ShareCommon/Utils";
 const HomeLoanResultCom = props => {
   return (
     <>
-      <div>
+      <div className="loan-sec">
         <Alert variant="primary" className="custom-badge">
           <Alert.Heading>Loan EMI</Alert.Heading>
           <Badge pill variant="success">
@@ -23,7 +23,7 @@ const HomeLoanResultCom = props => {
         </Alert>
 
         <Alert variant="primary" className="custom-badge">
-          <Alert.Heading>Total Payment Principal Interest</Alert.Heading>
+          <Alert.Heading>Total Payment (Principal + Interest)</Alert.Heading>
           <Badge pill variant="success">
             ₹ {Commafy(+props.totalPaymentPrincipalInterest)}
           </Badge>
