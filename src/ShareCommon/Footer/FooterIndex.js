@@ -21,7 +21,7 @@ class FooterIndex extends React.Component {
               <Row>
                 <Col>
                   <p className="fo-text">
-                    Copyright © 2019. All right reserved.
+                    Copyright © 2020. All right reserved.
                     <strong>Disclaimer</strong>
                     Design &amp; Develop By :
                     <a

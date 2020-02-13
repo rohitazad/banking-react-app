@@ -20,6 +20,10 @@ class HeaderCom extends Component {
         {
           title: "Home Loan EMI",
           link: "/home-loan-emi"
+        },
+        {
+          title: "Vehicle Loan EMI",
+          link: "/vehicle-loan-emi"
         }
       ]
     };
@@ -74,7 +78,7 @@ class HeaderCom extends Component {
           <div
             className={`collapse navbar-collapse ${
               this.state.mobileClass ? "show" : ""
-            }`}
+              }`}
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mr-auto">
@@ -95,6 +99,15 @@ class HeaderCom extends Component {
                   to="/about"
                 >
                   About
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  activeClassName="active"
+                  className="nav-link"
+                  to="/income-tax-calculator"
+                >
+                  Income Tax Calculator
                 </NavLink>
               </li>
               <li className="nav-item dropdown">

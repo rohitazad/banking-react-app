@@ -416,11 +416,7 @@ class BasicClcIndexCom extends React.Component {
               </Card.Title>
 
               <Row>
-                <Col>
-                  <h3>This is only for demo purpose just live calculator.</h3>
-                  <h5>More basic calcuators</h5>
-                </Col>
-                <Col>
+                <Col sm={6}>
                   <div className="clc-sec">
                     <div className="result">{this.state.expressionResult}</div>
                     <input
@@ -438,6 +434,10 @@ class BasicClcIndexCom extends React.Component {
                       })}
                     </div>
                   </div>
+                </Col>
+                <Col sm={6}>
+                  <h3>This is demo  calculator.</h3>
+
                 </Col>
               </Row>
             </Card.Body>

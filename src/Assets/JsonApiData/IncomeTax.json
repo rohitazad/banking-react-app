@@ -1,0 +1,95 @@
+[
+    {
+        "controlId": "formAssessmentyear",
+        "labelText": "Assessment Year",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "select",
+        "disabled": false,
+        "selectOptionData": [
+            {
+                "title": "Select",
+                "value": 0
+            },
+            {
+                "title": "2020-21",
+                "value": "2020-21"
+            },
+            {
+                "title": "2019-20",
+                "value": "2019-20"
+            }
+        ],
+        "name": "assessmentyear"
+    },
+    {
+        "controlId": "formTaxpayer",
+        "labelText": "Tax Payer",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "select",
+        "disabled": false,
+        "selectOptionData": [
+            {
+                "title": "Select",
+                "value": 0
+            },
+            {
+                "title": "Individual",
+                "value": "Individual"
+            }
+        ],
+        "name": "taxpayer"
+    },
+    {
+        "controlId": "formPerson",
+        "labelText": " Male / Female / Senior Citizen ",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "select",
+        "disabled": false,
+        "selectOptionData": [
+            {
+                "title": "Select",
+                "value": 0
+            },
+            {
+                "title": "Male",
+                "value": "Male"
+            },
+            {
+                "title": "Female",
+                "value": "Female"
+            },
+            {
+                "title": "Senior Citizen",
+                "value": "Senior Citizen"
+            },
+            {
+                "title": "Super Senior Citizen",
+                "value": "Super Senior Citizen"
+            }
+        ],
+        "name": "forperson"
+    },
+    {
+        "controlId": "formPersonIncome",
+        "labelText": " Income from Salary  ",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "Income from salary",
+        "name": "incomesalary"
+    },
+    {
+        "controlId": "formIncomeOtherSources",
+        "labelText": "  Income From Other Sources   ",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "Income from other sources",
+        "name": "othersalary"
+    }
+]
