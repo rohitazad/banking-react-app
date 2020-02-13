@@ -1,0 +1,52 @@
+[
+    {
+        "controlId": "formLifeInsurance",
+        "labelText": "Life Insurance premium paid",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "lic insurance premium paid",
+        "name": "lifeinsurance"
+    },
+    {
+        "controlId": "formPPFprovidentFund",
+        "labelText": "Contribution toward provident fund / PPF",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "PPF amount",
+        "name": "ppfamount"
+    },
+    {
+        "controlId": "formTuitionFeesChildren",
+        "labelText": " Tuition fees paid for children ",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "Tuition fees paid for children",
+        "name": "tuitionfees"
+    },
+    {
+        "controlId": "formAny80C",
+        "labelText": " Any other deductable (u/s 80C) ",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "Any deductable 80c",
+        "name": "any80c"
+    },
+    {
+        "controlId": "formMediClaim",
+        "labelText": "  Medi-claim premium (u/s 80D)  ",
+        "labelSM": 7,
+        "selectSM": 5,
+        "type": "number",
+        "disabled": false,
+        "placeholder": "Medi-claim premium (u/s 80D)",
+        "name": "mediclaim"
+    }
+]
