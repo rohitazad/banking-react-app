@@ -17,7 +17,7 @@ class RoutesComponents extends Component {
   render() {
     return (
       <>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <HeaderCom />
           <Switch>
             <Route exact path="/" component={IncomeTaxClcContainer} />
