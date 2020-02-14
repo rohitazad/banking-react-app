@@ -112,6 +112,10 @@ function IncomeTextResult(props) {
                             <strong>{numberConvertIntoINDRupes(props._incomeTaxValue._totalDedection_80d)}</strong>
                         </ListGroup.Item>
                         <ListGroup.Item as="li">
+                            <span>After Deduction 80C and 80D Your   Salary is</span>
+                            <strong>{numberConvertIntoINDRupes(props._incomeTaxValue.totalIncome - (props._incomeTaxValue._totalDedection_80c + props._incomeTaxValue._totalDedection_80d))}</strong>
+                        </ListGroup.Item>
+                        <ListGroup.Item as="li">
                             <span>Your Taxable  Salary is</span>
                             <strong>{numberConvertIntoINDRupes(props._incomeTaxValue._old_taxableSalary)}</strong>
                         </ListGroup.Item>
