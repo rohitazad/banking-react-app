@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { Component } from "react";
 import { Route, Switch } from "react-router";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 
 import HeaderCom from "../ShareCommon/Header/HeaderCom";
 import FooterIndex from "../ShareCommon/Footer/FooterIndex";
@@ -17,7 +19,8 @@ class RoutesComponents extends Component {
   render() {
     return (
       <>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename='/'>
+       //</Router> <Router basename={process.env.PUBLIC_URL}>
           <HeaderCom />
           <Switch>
             <Route exact path="/" component={IncomeTaxClcContainer} />
@@ -33,6 +36,7 @@ class RoutesComponents extends Component {
             <Route path="/income-tax-calculator" component={IncomeTaxClcContainer} />
             <Route path="/home-loan-emi" component={HomeLoanEmiClcContainer} />
             <Route path="/vehicle-loan-emi" component={VehicleLoanClc} />
+            <Route path='*' component={HomeContainer} />
           </Switch>
           <FooterIndex />
         </Router>
