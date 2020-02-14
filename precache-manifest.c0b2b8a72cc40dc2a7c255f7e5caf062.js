@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03726f3a3b97b8dc91fb0a22861f245c",
+    "revision": "cd0066480530cdc1e1703e072b2f350f",
     "url": "/banking-react-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/banking-react-app/static/css/2.571c7fb1.chunk.css"
   },
   {
-    "revision": "f4123b594d2d95b42ee3",
+    "revision": "db378169a5b4eda0abde",
     "url": "/banking-react-app/static/css/main.3830adaa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/banking-react-app/static/js/2.26dfb267.chunk.js"
   },
   {
-    "revision": "f4123b594d2d95b42ee3",
-    "url": "/banking-react-app/static/js/main.e1a71fe5.chunk.js"
+    "revision": "db378169a5b4eda0abde",
+    "url": "/banking-react-app/static/js/main.bb8f9696.chunk.js"
   },
   {
     "revision": "77476971b084b33e50b5",
