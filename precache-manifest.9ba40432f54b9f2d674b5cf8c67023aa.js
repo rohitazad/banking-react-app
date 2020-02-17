@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec09afc20922755848f6d469cf370fc0",
+    "revision": "fb1ebf2a2c8ddb91c87d1249f686c197",
     "url": "/banking-react-app/index.html"
   },
   {
-    "revision": "1ee3874a4d9c8401a461",
+    "revision": "7b47a9ea815b78537e8f",
     "url": "/banking-react-app/static/css/2.571c7fb1.chunk.css"
   },
   {
-    "revision": "a7017487d5b28ce7367e",
-    "url": "/banking-react-app/static/css/main.3830adaa.chunk.css"
+    "revision": "816eb38a4d899edc3927",
+    "url": "/banking-react-app/static/css/main.164ad2f0.chunk.css"
   },
   {
-    "revision": "1ee3874a4d9c8401a461",
-    "url": "/banking-react-app/static/js/2.3f315871.chunk.js"
+    "revision": "7b47a9ea815b78537e8f",
+    "url": "/banking-react-app/static/js/2.7fbf56c4.chunk.js"
   },
   {
-    "revision": "a7017487d5b28ce7367e",
-    "url": "/banking-react-app/static/js/main.0b0f28f5.chunk.js"
+    "revision": "816eb38a4d899edc3927",
+    "url": "/banking-react-app/static/js/main.cbfa6f2d.chunk.js"
   },
   {
     "revision": "77476971b084b33e50b5",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/banking-react-app/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "77e10bbe0beaee067989f08137868d6e",
+    "url": "/banking-react-app/static/media/under-construction.77e10bbe.jpg"
   }
 ]);
