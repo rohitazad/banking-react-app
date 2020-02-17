@@ -6,22 +6,28 @@ function BudgetTextDetails(props) {
 
     const htmlTableRender = (tableObj) => {
         //debugger
-
         return tableObj.map((i, j) => {
             let testD = [];
-            if (i.type === 'head') {
-                testD.push(<tr key={j + 100}>
+            if (i.type === 'head' && j === 0) {
+                testD.push(<thead key={j + 100}><tr>
                     <th>
                         {i.title}
                     </th>
                     <th>
                         {i.title_2}
                     </th>
-                </tr>)
+                </tr></thead>)
+            } else if (i.type === 'text' && j !== 0) {
+                testD.push(<tbody key={j + 102}><tr>
+                    <td>
+                        {i.title}
+                    </td>
+                    <td>
+                        {i.title_2}
+                    </td>
+                </tr></tbody>)
             }
-
             return testD;
-
         })
 
 
@@ -30,12 +36,6 @@ function BudgetTextDetails(props) {
     const TableRenderData = () => {
         return <Table striped bordered hover>
             {htmlTableRender(props._budgetDataText.textDetailsText)}
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Mark</td>
-                </tr>
-            </tbody>
         </Table>
     }
     return <>

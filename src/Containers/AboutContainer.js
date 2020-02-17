@@ -1,13 +1,11 @@
 import React from "react";
+import AboutUsComp from "../Components/AboutUs/index";
 
 class AboutContainer extends React.Component {
   render() {
     return (
       <>
-        <h1>About Us</h1>
-        <div className="underCon">
-          <p>This page is under construction please visit after some time... :) </p>
-        </div>
+        <AboutUsComp />
       </>
     );
   }

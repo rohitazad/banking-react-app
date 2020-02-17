@@ -12,7 +12,8 @@ import ContactContainer from "../Containers/ContactContainer";
 import BasicClcContainer from "../Containers/BasicClc";
 import SimpleInterstClcContainer from "../Containers/SimpleInterstClc";
 import HomeLoanEmiClcContainer from "../Containers/HomeLoanEmiClc";
-import VehicleLoanClc from "../Containers/VehicleLoanClc";
+//import VehicleLoanClc from "../Containers/VehicleLoanClc";
+// <Route path="/vehicle-loan-emi" component={VehicleLoanClc} />
 import IncomeTaxClcContainer from "../Containers/IncomeTaxClc";
 
 class RoutesComponents extends Component {
@@ -34,7 +35,7 @@ class RoutesComponents extends Component {
             />
             <Route path="/income-tax-calculator" component={IncomeTaxClcContainer} />
             <Route path="/home-loan-emi" component={HomeLoanEmiClcContainer} />
-            <Route path="/vehicle-loan-emi" component={VehicleLoanClc} />
+
             <Route path='*' component={HomeContainer} />
           </Switch>
           <FooterIndex />

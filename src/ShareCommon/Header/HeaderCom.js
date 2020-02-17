@@ -20,11 +20,11 @@ class HeaderCom extends Component {
         {
           title: "Home Loan EMI",
           link: "/home-loan-emi"
-        },
-        {
-          title: "Vehicle Loan EMI",
-          link: "/vehicle-loan-emi"
         }
+        // {
+        //   title: "Vehicle Loan EMI",
+        //   link: "/vehicle-loan-emi"
+        // }
       ]
     };
     this.showDropdown = this.showDropdown.bind(this);
