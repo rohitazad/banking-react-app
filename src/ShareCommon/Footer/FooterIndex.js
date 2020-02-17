@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import SocailListCom from "./SocailList";
+import ShareCommonCom from "../../ShareCommon/SharePage/index";
 
 class FooterIndex extends React.Component {
   render() {
@@ -12,6 +13,11 @@ class FooterIndex extends React.Component {
         <footer>
           <section className="footer-top">
             <Container>
+              <Row>
+                <Col>
+                  <ShareCommonCom />
+                </Col>
+              </Row>
               <Row>
                 <Col>
                   <SocailListCom />

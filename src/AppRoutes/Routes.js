@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router";
 import { HashRouter as Router } from "react-router-dom";
 // import { BrowserRouter as Router } from "react-router-dom";
-
+//<<Router basename={process.env.PUBLIC_URL}>
 import HeaderCom from "../ShareCommon/Header/HeaderCom";
 import FooterIndex from "../ShareCommon/Footer/FooterIndex";
 import HomeContainer from "../Containers/HomeContainer";
@@ -20,7 +20,6 @@ class RoutesComponents extends Component {
     return (
       <>
         <Router basename='/'>
-       //</Router> <Router basename={process.env.PUBLIC_URL}>
           <HeaderCom />
           <Switch>
             <Route exact path="/" component={IncomeTaxClcContainer} />

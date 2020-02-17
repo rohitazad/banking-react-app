@@ -1,0 +1,45 @@
+{
+    "textDetailsText": [
+        {
+            "type": "head",
+            "title": "Total income (Rs)",
+            "title_2": "Income tax rate"
+        },
+        {
+            "type": "text",
+            "title": " Up to 2.5 lakh",
+            "title_2": " Nil"
+        },
+        {
+            "type": "text",
+            "title": " From 2,50,001 to Rs 5,00,000",
+            "title_2": " 5 percent"
+        },
+        {
+            "type": "text",
+            "title": " From 5,00,001 to Rs 7,50,000 ",
+            "title_2": " 10 percent"
+        },
+        {
+            "type": "text",
+            "title": " From 7,50,001 to 10,00,000",
+            "title_2": " 15 percent"
+        },
+        {
+            "type": "text",
+            "title": " From 10,00,001 to Rs 12,50,000",
+            "title_2": " 20 percent"
+        },
+        {
+            "type": "text",
+            "title": " From 12,50,001 to 15,00,000",
+            "title_2": " 25 percent"
+        },
+        {
+            "type": "text",
+            "title": " Above 15,00,000",
+            "title_2": " 30 percent"
+        }
+    ],
+    "textDetailHeadText": "Budget 2020 has proposed to introduce new income tax slabs"
+}

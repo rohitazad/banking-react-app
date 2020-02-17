@@ -4,8 +4,10 @@ class AboutContainer extends React.Component {
   render() {
     return (
       <>
-        <h1>ABout Continer</h1>
-        <p>My ABout ocnt</p>
+        <h1>About Us</h1>
+        <div className="underCon">
+          <p>This page is under construction please visit after some time... :) </p>
+        </div>
       </>
     );
   }

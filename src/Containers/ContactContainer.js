@@ -1,12 +1,10 @@
 import React from "react";
+import ContatUsIndexComp from '../Components/ContactUs/index';
 
 class ContactContainer extends React.Component {
   render() {
     return (
-      <>
-        <h1>Contact Continer</h1>
-        <p>My Contact ocnt</p>
-      </>
+      <ContatUsIndexComp />
     );
   }
 }

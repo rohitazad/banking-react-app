@@ -6,10 +6,12 @@ import Card from "react-bootstrap/Card";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import IncomeTextResult from './result';
+import BudgetTextDetails from './budgetDetails';
 
 
 import * as _IncomeTaxJson from "../../../Assets/JsonApiData/IncomeTax.json";
 import * as _IncomeTaxDeductionJson from "../../../Assets/JsonApiData/IncomeTaxDeductionJson.json";
+import * as _BudgetDataText from "../../../Assets/JsonApiData/BudgetTextDetails.json";
 
 
 
@@ -23,6 +25,7 @@ function IncomeTaxClcComp(props) {
 
     const selectObjData = _IncomeTaxJson.default;
     const deductionsData = _IncomeTaxDeductionJson.default;
+
 
     const taxFormSubmit = (e) => {
 
@@ -265,15 +268,15 @@ function IncomeTaxClcComp(props) {
                             </Row>
                             <Button variant="primary" className="custom-btn" type="submit">Calculate Tax</Button>
                             <div className="incomeResult">
-
                                 <IncomeTextResult _incomeTaxValue={allIncomeValue} _userDetails={formValue} />
-
-
                             </div>
                         </Form>
+
+
+                        <BudgetTextDetails _budgetDataText={_BudgetDataText.default} />
                     </Card.Body>
                 </Card>
-                </Container>
+            </Container>
         </>
     );
 }
