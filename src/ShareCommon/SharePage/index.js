@@ -26,7 +26,7 @@ import {
 
 
 function ShareCommonCom() {
-    const shareUrl = 'https://rohitazad.github.io/clock_reactjs/';
+    const shareUrl = 'https://rohitazad.github.io/banking-react-app/#/';
 
     return <>
 
