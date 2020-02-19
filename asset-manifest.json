@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/banking-react-app/static/css/main.2f81f5f9.chunk.css",
+    "main.css": "/banking-react-app/static/css/main.e1978a0e.chunk.css",
     "main.js": "/banking-react-app/static/js/main.214adbdb.chunk.js",
     "main.js.map": "/banking-react-app/static/js/main.214adbdb.chunk.js.map",
     "runtime-main.js": "/banking-react-app/static/js/runtime-main.d8c5d3e2.js",
@@ -9,10 +9,10 @@
     "static/js/2.82603fa5.chunk.js": "/banking-react-app/static/js/2.82603fa5.chunk.js",
     "static/js/2.82603fa5.chunk.js.map": "/banking-react-app/static/js/2.82603fa5.chunk.js.map",
     "index.html": "/banking-react-app/index.html",
-    "precache-manifest.543fec007762deb862bb55fc731af1cd.js": "/banking-react-app/precache-manifest.543fec007762deb862bb55fc731af1cd.js",
+    "precache-manifest.a8d967daf5b7afffe2d84a16fd6c0166.js": "/banking-react-app/precache-manifest.a8d967daf5b7afffe2d84a16fd6c0166.js",
     "service-worker.js": "/banking-react-app/service-worker.js",
     "static/css/2.571c7fb1.chunk.css.map": "/banking-react-app/static/css/2.571c7fb1.chunk.css.map",
-    "static/css/main.2f81f5f9.chunk.css.map": "/banking-react-app/static/css/main.2f81f5f9.chunk.css.map",
+    "static/css/main.e1978a0e.chunk.css.map": "/banking-react-app/static/css/main.e1978a0e.chunk.css.map",
     "static/media/custom.scss": "/banking-react-app/static/media/under-construction.77e10bbe.jpg",
     "static/media/font-awesome.min.css": "/banking-react-app/static/media/fontawesome-webfont.fee66e71.woff"
   }
