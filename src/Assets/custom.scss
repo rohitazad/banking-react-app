@@ -429,3 +429,32 @@ code {
 .about-us{
   margin-left:35px;
 }
+
+@media only screen and (max-width: 500px) {
+  
+  .allPageShareUrl{
+    position: static;
+    margin-bottom: 25px;
+    margin-top:10px;
+    li{
+      display: inline-block;
+      vertical-align: top;
+      
+    }
+    &:hover{
+      span:nth-of-type(2){
+        display: none;}
+    }
+    li + li{margin-left:5px;}
+    
+  }
+  .socialIcon li a {
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 37px;
+}
+}
